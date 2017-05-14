@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>优酷首页</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+<!-- 网站的头部 -->
+<div class="headerBox">
+  <div class="header comwidth">
+    <div class="logo fl"> <a href="#"><img src="images/yklogo.png" alt="logo"></a> </div>
+    <!-- 中间搜索框 -->
+    <div class="searchBox fl">
+      <input type="text" class="search_input fl">
+      <input type="button" class="search_btn fl">
+      <div class="search_show">
+        <ul class="search_list fl">
+          <li><a href="#">全美达人</a><span class="fr">更新至第17集</span></li>
+          <li><a href="#">全美达人</a><span class="fr">更新至第17集</span></li>
+          <li><a href="#">全美达人</a><span class="fr">更新至第17集</span></li>
+        </ul>
+        <dl class="imgShow fl">
+          <dt><a href="#"><img src="images/img.png" alt=""></a></dt>
+          <dd>
+            <h3>综艺</h3>
+            <p>主持人:尼克卡</p>
+            <p>地区:美国</p>
+            <a href="#" class="imgShow_play"></a> </dd>
+        </dl>
+      </div>
+    </div>
+    <!-- 右侧的菜单 -->
+    <ul class="menu fr">
+      <li> <!-- class="active"去掉隐藏下拉菜单 -->
+        <div class="menuTxt"> <a href="#" class="login">登录</a><span>|</span><a href="#">注册</a> </div>
+        <div class="menuShow login_left">
+          <div class="menuCont">
+            <h3 class="infoCenter">登录个人中心，观看精彩视频</h3>
+            <div class="logBox clearfix"> <a href="#" class="log_btn">登陆</a> <a href="#" class="reg_btn">注册</a> </div>
+            <div class="menu_line"></div>
+            <ul class="user_cont clearfix">
+              <li><a href="#" class="icon watchrec">观看记录</a></li>
+              <li><a href="#" class="icon mycollect">我的收藏</a></li>
+              <li><a href="#" class="icon myope">我的追剧</a></li>
+              <li><a href="#" class="icon myread">我的订阅</a></li>
+            </ul>
+            <div class="menu_line"></div>
+            <ul class="user_cont clearfix">
+              <li><a href="#" class="icon videomgr">视频管理</a></li>
+              <li><a href="#" class="icon myzoom">我的空间</a></li>
+              <li><a href="#" class="icon myvip">优酷会员</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menuTxt"> <a href="#" class="record">观看记录</a> </div>
+        <div class="menuShow record_left">
+          <div class="recordCont">
+            <div class="record_item">
+              <div class="record_title"> <span>一周内</span> <a href="#">管理观看记录</a> </div>
+              <div class="record_cont record_active">
+                <h3 class="video_title"><a href="#">智能社JavaScript视频教程——30 - BOX盒模型的应用</a><span class="del"></span></h3>
+                <div class="rate pc clearfix"><span>看到50%</span><a href="#">继续看</a></div>
+              </div>
+              <div class="record_item">
+                <div class="record_title"> <span>更早</span> </div>
+                <div class="record_cont">
+                  <h3 class="video_title"><a href="#">智能社JavaScript视频教程——30 - BOX盒模型的应用</a><span class="del"></span></h3>
+                  <div class="rate pc clearfix"><span>看到50%</span><a href="#">继续看</a></div>
+                </div>
+                <div class="record_cont">
+                  <h3 class="video_title"><a href="#">智能社JavaScript视频教程——30 - BOX盒模型的应用</a><span class="del"></span></h3>
+                  <div class="rate pc clearfix"><span>看到50%</span><a href="#">继续看</a></div>
+                </div>
+              </div>
+              <div class="lookmore"> <a href="#">查看更多</a> </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menuTxt"> <a href="#" class="upload">上传</a> </div>
+        <div class="menuShow upload_left">
+          <div class="uploadCont">
+            <ul class="user_cont clearfix">
+              <li><a href="#" class=" icon uploadVideo">上传视频</a></li>
+              <li><a href="#" class="icon videomgr">视频管理</a></li>
+              <li><a href="#" class="icon myzoom">我的空间</a></li>
+              <li><a href="#" class="icon sharemgr">分享计划</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 导航栏 -->
+<div class="blank"></div>
+<div class="navBox comwidth">
+  <div class="nav_left fl">
+    <ul class="nav fl">
+      <li><a href="#" class="active">首页</a></li>
+      <li><a href="#">电视剧</a></li>
+      <li><a href="#">电影</a></li>
+      <li><a href="#">综艺</a></li>
+      <li><a href="#">音乐</a></li>
+      <li><a href="#">动漫</a></li>
+      <li><a href="#">全部</a></li>
+    </ul>
+    <ul class="nav fl fontChange">
+      <li> <a href="#">资讯</a><span>•</span>
+        <div class="navMenu"> <a href="#">科技</a> <i class="triangle"></i> </div>
+        <div class="navShow">
+          <ul class="navList">
+            <li><a href="#">教育</a></li>
+            <li><a href="#">记录片</a></li>
+            <li><a href="#">财经</a></li>
+            <li><a href="#">体育</a></li>
+            <li><a href="#">拍客</a></li>
+          </ul>
+        </div>
+      </li>
+      <li> <a href="#">娱乐</a><span>•</span>
+        <div class="navMenu"> <a href="#">搞笑</a> <i class="triangle"></i> </div>
+        <div class="navShow">
+          <ul class="navList">
+            <li><a href="#">原创</a></li>
+          </ul>
+        </div>
+      </li>
+      <li> <a href="#">旅游</a><span>•</span>
+        <div class="navMenu"> <a href="#">母婴</a> <i class="triangle"></i> </div>
+        <div class="navShow">
+          <ul class="navList">
+            <li><a href="#">时尚</a></li>
+            <li><a href="#">游戏</a></li>
+            <li><a href="#">汽车</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">排行</a></li>
+    </ul>
+  </div>
+  <div class="nav_right fr">
+    <ul class="nav">
+      <li><a href="#">个人中心</a></li>
+      <li><a href="#">会员</a></li>
+      <li><a href="#">APP下载</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 首屏部分  -->
+<div class="blank"></div>
+<div class="first_screen comwidth clearfix">
+  <div class="part_left fl"> 
+    <!-- 上边部分 -->
+    <div class="screen_top"> 
+      <!-- 左侧大图 -->
+      <div class="video_bigBox fl">
+        <div class="video_body"> <a href="#"><img src="images/video_first.png" alt=""></a> </div>
+        <div class="video_intro">
+          <div class="play_btn"> <a href="#"><img src="images/play_btn.png" alt=""></a> </div>
+          <div class="video_txt">
+            <h3> <a href="#">实拍暴雨龙卷风突袭东莞 疯狂天灾1人遇难</a> </h3>
+            <p> <span class="author">奋斗君99</span> <span class="times">104万</span> <span class="comment">1,069</span> </p>
+          </div>
+        </div>
+      </div>
+      <!-- 右侧图 -->
+      <div class="video_smallBox fl">
+        <div class="smallVideo-1 sv topLine">
+          <div class="video_body"> <a href="#"><img src="images/smallVideo-1.png" alt=""></a> </div>
+          <div class="sv_intro">
+            <div class="sv_txt">
+              <h3> <a href="#">日右翼解禁钓鱼岛现场</a> </h3>
+            </div>
+          </div>
+          <div class="sv_shade">
+            <div class="shade_txt">
+              <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+              <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+              <p> <span class="author">smgbb新闻</span> </p>
+              <input type="button" name="button" value="播放">
+            </div>
+          </div>
+        </div>
+        <div class="smallVideo-2 sv topLine">
+          <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+          <div class="sv_intro">
+            <div class="sv_txt">
+              <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+            </div>
+          </div>
+          <div class="sv_shade">
+            <div class="shade_txt">
+              <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+              <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+              <p> <span class="author">smgbb新闻</span> </p>
+              <input type="button" name="button" value="播放">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 下边部分 -->
+    <div class="screen_bottom fl">
+      <div class="smallVideo-3 fl sv topLine">
+        <div class="video_body"> <a href="#"><img src="images/smallVideo-3.png" alt=""></a> </div>
+        <div class="sv_intro">
+          <div class="sv_txt">
+            <h3> <a href="#">中国合伙人</a> </h3>
+          </div>
+        </div>
+        <div class="sv_shade">
+          <div class="shade_txt">
+            <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+            <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+            <p> <span class="author">smgbb新闻</span> </p>
+            <input type="button" name="button" value="播放">
+          </div>
+        </div>
+      </div>
+      <div class="smallVideo-4 sv topLine fl">
+        <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+        <div class="sv_intro">
+          <div class="sv_txt">
+            <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+          </div>
+        </div>
+        <div class="sv_shade">
+          <div class="shade_txt">
+            <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+            <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+            <p> <span class="author">smgbb新闻</span> </p>
+            <input type="button" name="button" value="播放">
+          </div>
+        </div>
+      </div>
+      <div class="smallVideo-5 fl topLine sv">
+        <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+        <div class="sv_intro">
+          <div class="sv_txt">
+            <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+          </div>
+        </div>
+        <div class="sv_shade">
+          <div class="shade_txt">
+            <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+            <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+            <p> <span class="author">smgbb新闻</span> </p>
+            <input type="button" name="button" value="播放">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="part_right fr">
+    <div class="ad"> <a href="#"><img src="images/fir-ad.png" alt=""></a> </div>
+    <div class="ad_video">
+      <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="310" height="220">
+        <param name="movie" value="http://player.youku.com/player.php/sid/XMjczMjcyNzc3Mg==/v.swf">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="swfversion" value="7.0.70.0">
+        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+        <param name="expressinstall" value="Scripts/expressInstall.swf">
+        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 --> 
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="http://player.youku.com/player.php/sid/XMjczMjcyNzc3Mg==/v.swf" width="310" height="220">
+          <!--<![endif]-->
+          <param name="quality" value="high">
+          <param name="wmode" value="transparent">
+          <param name="swfversion" value="7.0.70.0">
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+          <div>
+            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </div>
+    <div class="video_des"> <a href="#" class="video_link">人民的名义</a> <a href="#" class="video_more">查看详情&gt;&gt;</a> </div>
+  </div>
+</div>
+<div class="h-50"></div>
+<!--个人中心-->
+<div class="userCenter comwidth clearfix">
+    <div class="part_left fl">
+        <div class="com-title fl">
+            <h3 class="use-tit fl">个人中心</h3>
+            <ul class="use-tab">
+                <li class="active"><a href="#">为我推荐</a></li>
+                <li><a href="#">观看记录</a></li>
+                <li><a href="#">我的追剧</a></li>
+                <li><a href="#">我的收藏</a></li>
+                <li><a href="#">我的订阅</a></li>
+            </ul>
+        </div>
+        <div class="screen_bottom fl">
+            <div class="smallVideo-3 fl sv topLine">
+                <div class="video_body"> <a href="#"><img src="images/smallVideo-3.png" alt=""></a> </div>
+                <div class="sv_intro">
+                    <div class="sv_txt">
+                        <h3> <a href="#">中国合伙人</a> </h3>
+                    </div>
+                </div>
+                <div class="sv_shade">
+                    <div class="shade_txt">
+                        <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                        <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                        <p> <span class="author">smgbb新闻</span> </p>
+                        <input type="button" name="button" value="播放">
+                    </div>
+                </div>
+                <div class="sv-exp">
+                    <div class="exp-txt">
+                        <h3><a href="#">疯狂的天灾，东莞暴雨加龙卷 风实拍</a></h3>
+                        <p>已在电脑上看过</p>
+                    </div>
+                </div>
+            </div>
+            <div class="smallVideo-4 sv topLine fl">
+                <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+                <div class="sv_intro">
+                    <div class="sv_txt">
+                        <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+                    </div>
+                </div>
+                <div class="sv_shade">
+                    <div class="shade_txt">
+                        <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                        <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                        <p> <span class="author">smgbb新闻</span> </p>
+                        <input type="button" name="button" value="播放">
+                    </div>
+                </div>
+                <div class="sv-exp">
+                    <div class="exp-txt">
+                        <h3><a href="#">疯狂的天灾，东莞暴雨加龙卷 风实拍</a></h3>
+                        <p>已在电脑上看过</p>
+                    </div>
+                </div>
+            </div>
+            <div class="smallVideo-5 fl topLine sv">
+                <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+                <div class="sv_intro">
+                    <div class="sv_txt">
+                        <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+                    </div>
+                </div>
+                <div class="sv_shade">
+                    <div class="shade_txt">
+                        <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                        <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                        <p> <span class="author">smgbb新闻</span> </p>
+                        <input type="button" name="button" value="播放">
+                    </div>
+                </div>
+                <div class="sv-exp">
+                      <div class="exp-txt">
+                          <h3><a href="#">疯狂的天灾，东莞暴雨加龙卷 风实拍</a></h3>
+                          <p>已在电脑上看过</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part_right fr pt-50 ">
+        <div class="smallVideo-3 sv topLine ph-50 fl">
+            <div class="video_body"> <a href="#"><img src="images/smallVideo-3.png" alt=""></a> </div>
+            <div class="sv_intro">
+                <div class="sv_txt">
+                    <h3> <a href="#">中国合伙人</a> </h3>
+                </div>
+            </div>
+            <div class="sv_shade">
+                <div class="shade_txt">
+                    <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                    <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                    <p> <span class="author">smgbb新闻</span> </p>
+                    <input type="button" name="button" value="播放">
+                </div>
+            </div>
+            <div class="sv-exp">
+                <div class="exp-txt">
+                    <h3><a href="#">疯狂的天灾，东莞暴雨加龙卷 风实拍</a></h3>
+                    <p>已在电脑上看过</p>
+                </div>
+            </div>
+        </div>
+        <div class="comeIn fr">
+            <P>进入个人中心</P>
+        </div>
+    </div>
+</div>
+
+<!--综艺部分-->
+<div class="h-50"></div>
+<div class="userCenter comwidth clearfix">
+    <div class="part_left fl">
+        <div class="com-title fl">
+            <h3 class="use-tit fl">综艺</h3>
+            <ul class="use-tab">
+                <li class="active"><a href="#">热播综艺</a></li>
+                <li><a href="#">大陆综艺</a></li>
+                <li><a href="#">港台欧美</a></li>
+                <li><a href="#">韩国综艺</a></li>
+            </ul>
+        </div>
+        <div class="screen_top pt-50">
+            <!-- 左侧大图 -->
+            <div class="video_bigBox fl">
+                <div class="video_body"> <a href="#"><img src="images/video_first.png" alt=""></a> </div>
+                <div class="video_intro">
+                    <div class="play_btn"> <a href="#"><img src="images/play_btn.png" alt=""></a> </div>
+                    <div class="video_txt">
+                        <h3> <a href="#">实拍暴雨龙卷风突袭东莞 疯狂天灾1人遇难</a> </h3>
+                        <p> <span class="author">奋斗君99</span> <span class="times">104万</span> <span class="comment">1,069</span> </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧图 -->
+            <div class="video_smallBox fl">
+                <div class="smallVideo-1 sv topLine">
+                    <div class="video_body"> <a href="#"><img src="images/smallVideo-1.png" alt=""></a> </div>
+                    <div class="sv_intro">
+                        <div class="sv_txt">
+                            <h3> <a href="#">日右翼解禁钓鱼岛现场</a> </h3>
+                        </div>
+                    </div>
+                    <div class="sv_shade">
+                        <div class="shade_txt">
+                            <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                            <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                            <p> <span class="author">smgbb新闻</span> </p>
+                            <input type="button" name="button" value="播放">
+                        </div>
+                    </div>
+                </div>
+                <div class="smallVideo-2 sv topLine">
+                    <div class="video_body"> <a href="#"><img src="images/smallVideo-2.png" alt=""></a> </div>
+                    <div class="sv_intro">
+                        <div class="sv_txt">
+                            <h3> <a href="#">实拍流星爆炸唯美瞬间</a> </h3>
+                        </div>
+                    </div>
+                    <div class="sv_shade">
+                        <div class="shade_txt">
+                            <h3> <a href="#">河南摔婴案公安局长被停职</a> </h3>
+                            <p> <a href="#">女婴父母疑被重金封口</a> <span class="times">2.7万</span> </p>
+                            <p> <span class="author">smgbb新闻</span> </p>
+                            <input type="button" name="button" value="播放">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="screen_bottom fl variety-ad"></div>
+    </div>
+    <div class="part_right fr">
+        <div class="com-title fl">
+            <ul class="use-tab">
+                <li class="active"><a href="#">综艺排行</a></li>
+                <li><a href="#">大陆</a></li>
+                <li><a href="#">台湾</a></li>
+                <li><a href="#">韩国</a></li>
+            </ul>
+        </div>
+        <div class="variety-list fl">
+            <ul>
+                <li><span class="cr">1</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cr">2</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cr">3</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cb">4</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cb">5</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cb">6</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+                <li><span class="cb">7</span><a href="#">龙门镖局 130817</a><i>快乐大本营2013</i></li>
+            </ul>
+            <div class="variety-more">
+                <a href="#">指数排行榜>></a>
+                <a href="#">更多排行>></a>
+            </div>
+        </div>
+        <div class="variety-vd">
+            <div class="variety-vdplay">
+                <span class="vdplay1"></span>
+                <h3><a href="">异地恋孩子真的伤不起</a></h3>
+                <p><微笑></p>
+            </div>
+            <div class="variety-vdplay">
+                <span class="vdplay1"></span>
+                <h3><a href="">异地恋孩子真的伤不起</a></h3>
+                <p><微笑></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
