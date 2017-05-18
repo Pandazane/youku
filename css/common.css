@@ -569,7 +569,7 @@
 .variety-list ul li .cr {
     float: left;
     background: url("../images/icon/cr.png") no-repeat;
-    width: 20px;
+	width: 20px;
     height: 20px;
 
 }
@@ -625,8 +625,76 @@
     color: #545454;
 }
 
+/*底部广告*/
+.adBar {
+	background: url("../images/adBar.png") top center no-repeat;
+	height: 114px;
+    padding-bottom: 20px;
+}
+.footer-link {
+    border-top: 2px solid #dcdcdc;
+    padding-top: 23px;
+}
+.footer-link ul {
+    float:left;
+    margin-right: 32px;
+}
+.footer-link ul li {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 16px;
+    padding-right:14px;
+    color: #8f8f8f;
+}
+.footer-link ul li a {
+    color :#000000;
+}
+.footer-info {
+    margin-top: 37px;
+}
+.footer-info ul {
+    float:left;
+	margin-top: 37px;
+    margin-right: 32px;
+}
+.footer-info ul li {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 16px;
+    padding-right:14px;
+    color: #000000;
+}
+.footer-info .img-password {
+	margin-top: 37px;
+	float: left;
+	width: 192px;
+}
 
+.footer-info .img-password a img {
+	float: left;
+	width: 90px;
+	height: 90px;
+	padding-right: 18px;
+}
+.footer-info .img-password h3 {
+	float: left;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	padding-bottom: 13px;
+	padding-top: 21px;
+}
+.footer-info .img-password p {
+	float: left;
+	font-size: 12px;
+}
 
+.copyright {
+	margin-top: 37px;
+	margin-bottom: 12px;
+	font-size: 12px;
+	text-align: center;
+}
 
 
 
